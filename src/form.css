@@ -1,0 +1,59 @@
+body{
+    background: rgb(215, 214, 186);
+    text-align: center;
+    color:black;
+    
+}
+
+.form{
+    border-radius: 15px;
+    box-shadow: rgb(22, 22, 22);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width:500px;
+    text-align:center;
+    margin:auto;
+
+}
+
+h1{
+    font-size: x-large;
+    text-align: center;
+    color: rgb(109, 93, 69);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label{
+
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+textarea, select,input{
+        display: block;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-bottom: 5px;
+        width: 100%;
+        background:white;
+        color: rgb(109, 93, 69);
+    }
+
+input[type="radio"]
+{
+    display: inline;
+    width: 10%;
+    accent-color: white;
+}
+
+button {
+    display: block; 
+    margin: 20px auto; 
+    width: fit-content;
+}
